@@ -7,22 +7,27 @@ const FirstFrame = ():JSX.Element => {
       className="first-frame"
       bg="#FFC700"
       borderRadius="20px"
-      pl="40px"
+      pl="20px"
       pr="0px"
-      m="50px"
-      h="300px"
-      w="486px"
+      height="50%"
       display="flex"
       alignItems="center"
       justifyContent="space-between"
+      position="relative"
+      w="100%"
+      overflow="hidden"
     >
       <Box fontWeight={600}>
-        <Text mb="30px" fontSize="27px">
+        <Text mb="30px" fontSize="18px">
           Premium Taste
         </Text>
-        <Text lineHeight="54px" fontSize="54">1 million people</Text>
+        <Text w="55%" lineHeight="38px" fontSize="36px">
+          1 million people
+        </Text>
       </Box>
-      <Image src="../src/assets/1.png" height="100%" />
+      
+        <Image src="../src/assets/1.png" h="100%" position="absolute" right="-60px" />
+
     </Box>
   );
 }

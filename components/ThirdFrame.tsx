@@ -7,24 +7,22 @@ const ThirdFrame = (): JSX.Element => {
       className="first-frame"
       bg="#EDE8DE"
       borderRadius="20px"
-      pl="40px"
+      pl="20px"
       pr="0px"
-      m="50px"
       h="634px"
-      w="486px"
       position="relative"
       overflow="hidden"
-
+      width="50%"
     >
-      <Box w="60%" mt="60px" fontWeight={600}>
-        <Text mb="30px" fontSize="32px">
+      <Box w="70%" mt="60px" fontWeight={600}>
+        <Text mb="30px" fontSize="24px">
           Premium Taste
         </Text>
         <Text pb="20px" mb="20px" borderBottom="1px solid black" fontSize="18px">Enjoy your dish with best deals</Text>
         
         <Text fontSize="18px">Starts from ₦13,000</Text>
       </Box>
-      <Image src="../src/assets/2.png" position="absolute" left="131px" top="195px"   />
+      <Image src="../src/assets/2.png" position="absolute" right="0px" bottom="0px" w="80%"   />
     </Box>
   );
 };
